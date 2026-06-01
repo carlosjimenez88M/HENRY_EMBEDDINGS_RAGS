@@ -85,6 +85,7 @@ class ChainingWorkflow:
     def run(self, user_input: str) -> WorkflowResult:
         research = self._researcher.run(user_input)
         review = self._writer.run(user_input, research)
+        
         return WorkflowResult(
             input=user_input,
             output=review,

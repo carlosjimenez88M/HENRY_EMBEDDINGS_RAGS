@@ -8,6 +8,8 @@ dependencies = [
     "openai>=1.50.0",
     "python-dotenv>=1.0.0",
     "pydantic>=2.7.0",
+    "langgraph>=1.2.2",
+    "grandalf>=0.8",
 ]
 
 [dependency-groups]
